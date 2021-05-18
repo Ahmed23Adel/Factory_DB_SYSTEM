@@ -142,6 +142,36 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Supervisor\Form_Supervisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supervisor\Form_Supervisor.Designer.cs" />
+    <Compile Include="Supervisor\Sup_ViewAllLines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supervisor\Sup_ViewAllLines.Designer.cs" />
+    <Compile Include="Supervisor\Sup_ViewAssignedLines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supervisor\Sup_ViewAssignedLines.Designer.cs" />
+    <Compile Include="Supervisor\Sup_ViewPrevEntries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supervisor\Sup_ViewPrevEntries.Designer.cs" />
+    <Compile Include="Supervisor\Sup_ViewPrevOutput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supervisor\Sup_ViewPrevOutput.Designer.cs" />
+    <Compile Include="Supervisor\Sup_ViewWorkersRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supervisor\Sup_ViewWorkersRecord.Designer.cs" />
+    <Compile Include="Worker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Worker.Designer.cs">
+      <DependentUpon>Worker.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -193,6 +223,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Supervisor\Form_Supervisor.resx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -206,5 +237,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -22,3 +22,4 @@ D:\Zewail\Year 2\Spring\Database\Factory_DB_SYSTEM\Factory\bin\Debug\Factory.pdb
 D:\Zewail\Year 2\Spring\Database\Factory_DB_SYSTEM\Factory\obj\Debug\Factory.csproj.CopyComplete
 D:\Zewail\Year 2\Spring\Database\Factory_DB_SYSTEM\Factory\obj\Debug\Factory.exe
 D:\Zewail\Year 2\Spring\Database\Factory_DB_SYSTEM\Factory\obj\Debug\Factory.pdb
+D:\Zewail\Year 2\Spring\Database\Factory_DB_SYSTEM\Factory\obj\Debug\Factory.Supervisor.Form_Supervisor.resources

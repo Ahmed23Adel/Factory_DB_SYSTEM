@@ -16,7 +16,7 @@ namespace Factory
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            var log_form = new Manager.Edit_product();
+            var log_form = new Manager.Add_Employee();
             log_form.Show();
             Application.Run();
         }
